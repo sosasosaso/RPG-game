@@ -7,6 +7,7 @@ class Mage extends Character{
     this.intelligence = 120;
     this.spellPower = 200;
   }
+  
 public void castSpell(Character target){
   
 }
