@@ -4,7 +4,7 @@ class Character{
   private int mana;
   private int level;
 
-public Charater (String name, int health){
+public Character (String name, int health){
   this.name = name;
   this.health = health;
   this.mana = 100;
