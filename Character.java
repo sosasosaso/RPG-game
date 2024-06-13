@@ -17,13 +17,25 @@ public Charater (String name, int health){
   public String getName(){
     return name;
   }
+
+  public int setHealth(int health){
+    this.health = health;
+  }
   
   public int getHealth(){
     return health;
   }
+
+  public int setMana(int mana){
+    this.mana = mana;
+  }
   
   public int getMana(){
     return mana;
+  }
+
+  public int setLevel(int level){
+    this.level = level;
   }
   
   public int getLevel(){
