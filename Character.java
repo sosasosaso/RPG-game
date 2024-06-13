@@ -10,7 +10,7 @@ public Character (String name, int health){
   this.mana = 100;
   this.level = 1;
 }
-  public String setName(String name){
+  public void setName(String name){
     this.name = name;
   }
   
@@ -18,7 +18,7 @@ public Character (String name, int health){
     return name;
   }
 
-  public int setHealth(int health){
+  public void setHealth(int health){
     this.health = health;
   }
   
@@ -26,7 +26,7 @@ public Character (String name, int health){
     return health;
   }
 
-  public int setMana(int mana){
+  public void setMana(int mana){
     this.mana = mana;
   }
   
@@ -34,7 +34,7 @@ public Character (String name, int health){
     return mana;
   }
 
-  public int setLevel(int level){
+  public void setLevel(int level){
     this.level = level;
   }
   
