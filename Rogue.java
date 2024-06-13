@@ -2,7 +2,7 @@ class Rogue extends Character{
   private int agility;
   private int dexterity;
 
-  public Mage (String name, int health){
+  public Rogue (String name, int health){
     super(name, health);
     this.agility = 80;
     this.dexterity = 100;
