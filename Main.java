@@ -19,8 +19,8 @@ public class Main{
       rogue.levelUp();
 
       System.out.println("Do you want a new fight? (yes/no)");
-    }while (scanner.nextLine().equalsIgnoreCase("yes"));
-    scanner.close();
+    }while (scan.nextLine().equalsIgnoreCase("yes"));
+    scan.close();
     System.out.println("Game ended");
  }
 }
